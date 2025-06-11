@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 1.6rem;
+}
+
+/* start of header-main */
+.header-main{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+.header{
+    max-width: 350px;
+    margin: 0 auto;
+   background-color: #fff;
+    border-radius: 15px;
+}
+.back{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.top{
+    text-align: center;
+    position: relative;
+    content:"" ;
+}
+.victor{
+    border-radius: 45px;
+    position: absolute;
+    top: 100px;
+    right: 125px;
+}
+.middle{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+.crest{
+    position: absolute;
+    left: 240px;
+    bottom: 20px;
+}
+.london{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.buttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    border-top: 2px solid lightblue;
+    padding-bottom: 50px;
+}
+.last{
+    text-transform: capitalize;
+}
+
+/* end of header-main */
